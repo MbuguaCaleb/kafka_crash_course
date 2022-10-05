@@ -20,7 +20,6 @@ public class KafkaConsumerConfig {
     @Value("${spring.kafka.bootstrap-servers}")
     private String bootstrapServers;
 
-
     //When setting up my Consumer,i deserialize what was sent By My Producer
     //The Consumer Config Should deserialize what we receive from the Producer
     public Map<String, Object> consumerConfig(){

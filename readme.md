@@ -70,6 +70,30 @@ It helps my producer to send messages to my Topic.
 The Work of the Consumer is to Pull events from the Topic.
 
 ```
+
+**Good To Note**
+
+```yaml
+
+
+You can be able to directly send/Listen from a Topic.
+
+Kafka Comes with some Util Methods,
+
+kafkaTemplate.send("codewithcaleb",request.message());
+
+can help me send to an existing topic directly.
+
+To listen to a Topic, i can use the KafkaListener annotation and tie it t a method,
+  
+@KafkaListener(topics = "codewithcaleb", groupId = "groupId")
+void listener(String data){
+System.out.println("Listener Received:" + data + "");
+}
+  
+  
+
+```
 **Notes By**
 
 ```yaml
