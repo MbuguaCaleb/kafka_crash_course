@@ -38,6 +38,31 @@ A Producer's Role is to send a Stream of events.
 ```
 
 
+**Setting up a Kafka Topic**
+
+```yaml
+
+
+There are three steps involved in creation of the KAFKA Topic,
+
+1.Producer Config
+
+It is where i setUp my configuration including the broker URL.
+
+i Also setUp the Key Value pairs of what i am sending.
+
+
+2.Producer Configuration
+
+It is Responsible for Creating Producer Instances
+
+3.Kafka Template
+
+It helps my producer to send messages to my Topic.
+
+
+```
+
 **Notes By**
 
 ```yaml
