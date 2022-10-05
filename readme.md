@@ -63,6 +63,13 @@ It helps my producer to send messages to my Topic.
 
 ```
 
+**Consumer**
+
+```yaml
+
+The Work of the Consumer is to Pull events from the Topic.
+
+```
 **Notes By**
 
 ```yaml
